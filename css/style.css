@@ -7,10 +7,9 @@ body{
 main {
 	background-color: #FBFBFB;
 	width: 400px;
-	height: 300px;
 	border: solid 10px white;
 	border-radius: 6px;
-	padding-top: 85px;
+	padding: 60px 0;
 	margin: 100px auto;
 }
 
@@ -22,18 +21,21 @@ main {
 	width: 223px;
 	background-repeat: no-repeat;
 	background-position: 20px center;
-
-	
 }
 
-.button.twitter {
+.twitter {
 	background-color: #55ACEE;
 	background-image: url(../img/Twitter_logo_white_60px.png);
 }
 
-.button.facebook {
+.facebook {
 	background-color: #4464A2;
 	background-image: url(../img/Facebook_logo_white_60px.png);
+}
+
+.pinterest {
+	background-color: #cc2127;
+	background-image: url(../img/Pinterest_logo_white_60px.png);
 }
 
 .number {
