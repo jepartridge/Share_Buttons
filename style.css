@@ -1,0 +1,79 @@
+body{
+	background-color: #BFBFBF;
+}
+
+main {
+	background-color: #FBFBFB;
+	width: 400px;
+	height: 300px;
+	border: solid 10px white;
+	border-radius: 6px;
+	padding-top: 85px;
+	margin: 100px auto;
+}
+
+.button {
+	background-color: #5BA9EC;
+	width: 242px;
+	height: 85px;
+	margin: 15px auto;
+	position: relative; 
+}
+
+.button.facebook {
+	background-color: #4464A2;
+}
+
+
+.number {
+	background-color: #4D91D9;
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	font-family: 'Lato', sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+	color: #FFF;
+	font-size: 36px;
+	padding: 12px 20px 12px 26px;
+	float: right;
+}
+
+.facebook .number {
+	background-color: #2A4279;
+	padding: 10px 20px 14px 26px;
+}
+
+.arrow {
+	width: 0px;
+	height: 0px;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 14px solid #4D91D9;
+	position: absolute;
+	top: 36px;
+	right: 138px;
+}
+
+.facebook .arrow {
+	border-right: 14px solid #2A4279;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+	background: url(Icons/Twitter_logo_white_60px.png) no-repeat;
+	float: left;
+	position: absolute;
+	top: 15px;
+	left: 22px;
+}
+
+.facebook .logo {
+	background: url(Icons/Facebook_logo_white_60px.png) no-repeat;
+	top: 14px;
+	left: 20px;
+}
+
+
+
+
