@@ -28,12 +28,12 @@ main {
 
 .button.twitter {
 	background-color: #55ACEE;
-	background-image: url(Icons/Twitter_logo_white_60px.png);
+	background-image: url(../img/Twitter_logo_white_60px.png);
 }
 
 .button.facebook {
 	background-color: #4464A2;
-	background-image: url(Icons/Facebook_logo_white_60px.png);
+	background-image: url(../img/Facebook_logo_white_60px.png);
 }
 
 .number {
